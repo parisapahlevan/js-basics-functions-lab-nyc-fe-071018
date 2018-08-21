@@ -25,7 +25,7 @@ function calculatesFarePrice(startingBlock,endingBlock){
   let distanceToPayForInFeet = dInf - 400
   if(distanceToPayForInFeet > 0){
       if(distanceToPayForInFeet<2000){
-        return distanceToPayForInFeet*2
+        return distanceToPayForInFeet*0.02
       }else if (distanceToPayForInFeet>2000 && 
                 distanceToPayForInFeet<2500){
         return 'flat fare'
