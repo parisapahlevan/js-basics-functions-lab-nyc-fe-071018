@@ -18,6 +18,10 @@ function distanceTravelledInFeet(x) {
   return x=2112;
 }
 
+function distanceTravelledInFeet(x) {
+  return x=2112;
+}
+
 describe('distanceFromHqInFeet()', function() {
     it('returns a distance in feet', function() {
       expect(distanceFromHqInFeet(43)).to.equal(264);
