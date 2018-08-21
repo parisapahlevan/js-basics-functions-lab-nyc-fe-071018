@@ -21,9 +21,6 @@ function distanceFromHqInFeet(){
 function distanceTravelledInFeet(x,y){
   return (x-y)*264;
 }
-console.log((60-50)*264);
-
-console.log((48-43)*264);
 
 
 
