@@ -10,16 +10,13 @@ function distanceFromHqInBlocks(){
 }
 
 function distanceFromHqInFeet(){
-  return 1320;
+  return 264;
 }
 
 function distanceFromHqInFeet(){
-  return 1320;
+  return 2112;
 }
 
-function distanceFromHqInFeet(){
-  return 1320;
-}
 
 
 
