@@ -23,17 +23,15 @@ function distanceTravelledInFeet(startingBlock,endingBlock){
 function calculatesFarePrice(startingBlock,endingBlock){
   let dInf  = distanceTravelledInFeet(startingBlock, endingBlock)
   let distanceToPayForInFeet = dInf - 400
-  let total = 0
   if(distanceToPayForInFeet > 0){
       if(distanceToPayForInFeet<2000){
-        total = distanceToPayForInFeet*0.02
+        return distanceToPayForInFeet*0.02
       }else if (distanceToPayForInFeet>2000 && 
                 distanceToPayForInFeet<2500){
-        total = total + (distanceToPayForInFeet - 2000)*25
+        return 25
       }else{
-        total =  'cannot travel that far'
+        return 'cannot travel that far'
       }
-      return total
   }else{
     return 0
   }
