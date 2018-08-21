@@ -15,7 +15,7 @@ function distanceFromHqInFeet(distination){
 
 function distanceTravelledInFeet(startingBlock,endingBlock){
   let difference=0
-  if(startingBlock>endingBlock){
+  if(startingBlock > endingBlock){
     difference  = startingBlock - endingBlock
   }else{
     difference  = endingBlock - startingBlock
