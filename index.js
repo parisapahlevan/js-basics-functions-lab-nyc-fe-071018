@@ -12,12 +12,10 @@ function distanceFromHqInFeet(distination){
   return blocks*264
 }
 
-
 function distanceTravelledInFeet(startingBlock,endingBlock){
   let difference=0
   if(startingBlock > endingBlock){
     difference  = startingBlock - endingBlock
-    let x = 'here I am'
   }else{
     difference  = endingBlock - startingBlock
   }
