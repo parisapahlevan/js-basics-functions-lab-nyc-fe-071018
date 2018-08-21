@@ -29,7 +29,7 @@ function calculatesFarePrice(startingBlock,endingBlock){
             distanceToPayForInFeet<2500){
     return 'flat fare'
   }else{
-    
+    return 'cannot travel that far'
   }
 }
 
