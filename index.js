@@ -23,12 +23,13 @@ function distanceTravelledInFeet(startingBlock,endingBlock){
 function calculatesFarePrice(startingBlock,endingBlock){
   let dInf = distanceTravelledInFeet(startingBlock, endingBlock)
   if(dInf < 2000){
+    if(dInf<400){
+        return 0
+    }
     let distanceToPayForInFeet = dInf - 400
     return distanceToPayForInFeet*0.02
   }
-  if(dInf<400){
-    return 0
-  }
+
 }
 
  
