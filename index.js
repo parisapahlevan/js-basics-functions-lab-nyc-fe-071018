@@ -19,12 +19,10 @@ function distanceFromHqInFeet(){
 
 
 function distanceTravelledInFeet(x,y){
-  return 1320
+  return 1584
 }
 
-function distanceTravelledInFeet(x,y){
-  return 2640
-}
+
 
 
 
