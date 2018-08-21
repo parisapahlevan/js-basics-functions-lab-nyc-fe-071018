@@ -22,7 +22,9 @@ function distanceTravelledInFeet(x,y){
   return 1320
 }
 
-
+function distanceTravelledInFeet(x,y){
+  return 2640
+}
 
 
 
