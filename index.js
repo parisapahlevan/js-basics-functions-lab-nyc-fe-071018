@@ -22,7 +22,7 @@ let y= 50
 function distanceTravelledInFeet(x,y){
   return (x-y)*264;
 }
-
+distanceTravelledInFeet(60,50);
 
 
 
