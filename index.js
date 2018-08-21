@@ -19,7 +19,7 @@ function distanceFromHqInFeet(){
 
 
 function distanceTravelledInFeet(x,y){
-  return (48-43)*264;
+  return (x-y)*264;
 }
 
 function distanceTravelledInFeet(x,y){
