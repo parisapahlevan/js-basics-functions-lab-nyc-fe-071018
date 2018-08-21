@@ -7,8 +7,14 @@ function distanceFromHqInBlocks(distination){
   }
 }
 
-function distanceFromHqInFeet(){
-  return 264;
+function distanceFromHqInFeet(distination){
+  //let blocks = distanceFromHqInBlocks(distination)
+  if(distination < 42){
+    return  (42-distination)*264
+  }else{
+    return (distination - 42)*264
+  }
+  //return blocks*264
 }
 
 
