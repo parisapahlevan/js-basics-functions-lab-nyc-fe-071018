@@ -13,15 +13,14 @@ function distanceFromHqInFeet(distination){
 }
 
 function distanceTravelledInFeet(startingBlock,endingBlock){
-  let difference=0
   if(startingBlock > endingBlock){
-    difference  = startingBlock - endingBlock
+    return (startingBlock - endingBlock)*264
   }else{
-    difference  = endingBlock - startingBlock
+     return (endingBlock - startingBlock)*264
   }
-  return difference*264;
 }
-distanceTravelledInFeet(60,50);
+
+
 
 
 
