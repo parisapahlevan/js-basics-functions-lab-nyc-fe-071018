@@ -18,7 +18,7 @@ function distanceFromHqInFeet(){
 }
 
 
-function distanceTravelledInFeet(){
+function distanceTravelledInFeet(x,y){
   return (43-48)*264;
 }
 
