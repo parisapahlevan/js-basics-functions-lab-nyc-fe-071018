@@ -16,7 +16,9 @@ function distanceFromHqInFeet(){
 function distanceFromHqInFeet(){
   return 2112;
 }
-
+function distanceFromHqInFeet(){
+  return 1320;
+}
 
 
 
