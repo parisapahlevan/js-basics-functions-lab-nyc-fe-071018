@@ -11,15 +11,15 @@ function distanceFromHqInBlocks(x){
 
 
 
-function distanceTravelledInFeet(x) {
-  return x=264;
+function distanceTravelledInFeet() {
+  return 264;
 }
-function distanceTravelledInFeet(x) {
-  return x=2112;
+function distanceTravelledInFeet() {
+  return 2112;
 }
 
-function distanceTravelledInFeet(x) {
-  return x=2112;
+function distanceTravelledInFeet() {
+  return 2112;
 }
 
 describe('distanceFromHqInFeet()', function() {
