@@ -17,8 +17,6 @@ function distanceFromHqInFeet(){
   return 2112;
 }
 
-let x=60
-let y= 50
 function distanceTravelledInFeet(x,y){
   return (x-y)*264;
 }
