@@ -23,6 +23,7 @@ function distanceTravelledInFeet(x,y){
 }
 console.log((50-60)*264);
 
+console.log((43-48)*264);
 
 
 
