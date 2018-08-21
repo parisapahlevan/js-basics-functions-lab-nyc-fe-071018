@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(distination){
-  return (42-distination)*264 ;
+  return (42-distination) ;
 }
 function distanceFromHqInBlocks(){
   return 8;
