@@ -9,6 +9,16 @@ function distanceFromHqInBlocks(){
   return 8;
 }
 
+function distanceFromHqInFeet(){
+  return 
+}
+
+
+
+
+
+
+
 
 
 function distanceTravelledInFeet() {
