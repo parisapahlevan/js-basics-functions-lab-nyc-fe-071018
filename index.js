@@ -19,6 +19,7 @@ function distanceFromHqInFeet(){
 
 
 function distanceTravelledInFeet(x,y){
+  let x= 
   return 1320
 }
 
