@@ -1,6 +1,10 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(someValue){
-  return (someValue-42)
+function distanceFromHqInBlocks(distination){
+  if(distination < 42){
+    return  (42-distination)
+  }else{
+    return (distination - 42)
+  }
 }
 
 function distanceFromHqInFeet(){
