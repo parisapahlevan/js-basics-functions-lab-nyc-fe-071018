@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(someValue){
-  return (42-someValue) ;
+  return (someValue - 42) ;
 }
 function distanceFromHqInBlocks(){
   return 8;
