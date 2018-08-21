@@ -6,7 +6,7 @@ function distanceFromHqInBlocks(x){
   return x=8;
 }
 function distanceFromHqInBlocks(x){
-  return x=1;
+  return x=8;
 }
 
 
