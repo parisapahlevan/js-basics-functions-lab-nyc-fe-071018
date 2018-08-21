@@ -18,6 +18,10 @@ function distanceFromHqInFeet(){
 }
 
 
+function distanceTravelledInFeet(){
+  
+}
+
 
 
 
