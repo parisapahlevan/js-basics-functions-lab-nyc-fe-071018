@@ -28,7 +28,7 @@ function calculatesFarePrice(startingBlock,endingBlock){
         return distanceToPayForInFeet*0.02
       }else if (distanceToPayForInFeet>2000 && 
                 distanceToPayForInFeet<2500){
-        return 25.00
+        return 25
       }else{
         return 'cannot travel that far'
       }
