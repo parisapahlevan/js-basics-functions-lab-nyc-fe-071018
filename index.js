@@ -20,10 +20,9 @@ function distanceTravelledInFeet(startingBlock,endingBlock){
   }
 }
 
-function calculatesFarePrice(){
- switch  (calculatesFarePrice)
-   case 400: 
-    fee = "free";
-   break;
+function calculatesFarePrice(startingBlock,endingBlock){
+  let dInf  = distanceTravelledInFeet(startingBlock, endingBlock)
+}
+
  
 
