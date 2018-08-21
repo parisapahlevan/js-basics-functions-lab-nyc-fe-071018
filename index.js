@@ -12,7 +12,7 @@ function distanceFromHqInBlocks(){
 
 
 function distanceTravelledInFeet() {
-  return 264;
+  return 1320;
 }
 function distanceTravelledInFeet() {
   return 2112;
