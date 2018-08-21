@@ -33,7 +33,6 @@ function calculatesFarePrice(startingBlock,endingBlock){
   }else{
     return 'cannot travel that far'
   }
-
 }
 
  
