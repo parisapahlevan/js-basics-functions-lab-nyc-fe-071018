@@ -13,7 +13,7 @@ function distanceFromHqInFeet(distination){
 }
 
 
-function distanceTravelledInFeet(x,y){
+function distanceTravelledInFeet(startingBlock,endingBlock){
   return (x-y)*264;
 }
 distanceTravelledInFeet(60,50);
