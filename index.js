@@ -20,7 +20,9 @@ function distanceTravelledInFeet(startingBlock,endingBlock){
   }
 }
 
-
+calculatesFarePrice(){
+  
+}
 
 
 
