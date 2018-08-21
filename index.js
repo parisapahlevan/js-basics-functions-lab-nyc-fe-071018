@@ -1,4 +1,4 @@
 // Code your solution in this file!
-function distanceTravelledInFeet( beginning, destination blocks ){
+function distanceTravelledInFeet((38-34)*264){
   
 }
