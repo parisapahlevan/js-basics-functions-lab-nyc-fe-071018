@@ -23,7 +23,7 @@ function distanceTravelledInFeet(x,y){
 }
 
 function distanceTravelledInFeet(x,y){
-  return (48-43)*264;
+  return (50-60)*264;
 }
 
 
