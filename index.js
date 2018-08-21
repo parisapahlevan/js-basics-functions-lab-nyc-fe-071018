@@ -33,7 +33,7 @@ function calculatesFarePrice(startingBlock,endingBlock){
         return 'cannot travel that far'
       }
   }else{
-    console.log("Free ride !")
+    return 0
   }
 }
 
